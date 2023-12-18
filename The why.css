@@ -1,0 +1,55 @@
+.Flex-container{
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.606);
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+h2 {
+    text-align: center;
+}
+#div1{
+    background-color: #8b550f;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    text-align: 30px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+#div2{
+    background-color: #320f8b;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    text-align: 30px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+#div3{
+    background-color: #438b0f;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    text-align: 30px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+#div4{
+    background-color: rgb(139, 15, 79);
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    text-align: 30px;
+    font-size: 30px;
+    color: aliceblue;
+
+
+}
+.child:hover {
+    transform: scale(1.05);
+}
