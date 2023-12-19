@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://w.wallhaven.cc/full/x6/wallhaven-x6p3ll.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.game {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
